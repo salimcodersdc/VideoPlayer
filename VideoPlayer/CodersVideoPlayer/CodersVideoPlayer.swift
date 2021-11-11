@@ -122,6 +122,7 @@ class CodersVideoPlayer: UIView {
         if isShrinked {
             maximize()
             playerViewContainer.isShrinked = false
+            deactivateConstraints()
         }
         self.media = media
         removeFromSuperview()

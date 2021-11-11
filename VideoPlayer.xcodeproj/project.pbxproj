@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA19D561273D516E00023CBF /* MinionsHoliday.srt in Resources */ = {isa = PBXBuildFile; fileRef = CA19D560273D516E00023CBF /* MinionsHoliday.srt */; };
 		CA2FCA9E270C664C00357912 /* CodersVideoPlayerMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2FCA9D270C664C00357912 /* CodersVideoPlayerMedia.swift */; };
 		CA3E53622704522500ACC2BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E53612704522500ACC2BE /* AppDelegate.swift */; };
 		CA3E53642704522500ACC2BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E53632704522500ACC2BE /* SceneDelegate.swift */; };
@@ -62,6 +63,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA19D560273D516E00023CBF /* MinionsHoliday.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MinionsHoliday.srt; sourceTree = "<group>"; };
 		CA2FCA9D270C664C00357912 /* CodersVideoPlayerMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodersVideoPlayerMedia.swift; sourceTree = "<group>"; };
 		CA3E535E2704522500ACC2BE /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3E53612704522500ACC2BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA19D55F273D516000023CBF /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				CA19D560273D516E00023CBF /* MinionsHoliday.srt */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
 		CA3E53552704522500ACC2BE = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +158,7 @@
 		CA3E53602704522500ACC2BE /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				CA19D55F273D516000023CBF /* Resouce */,
 				CA7F78E3270CCEDA00938EFA /* Extensions */,
 				CA7F78DF270CCD6000938EFA /* Helpers */,
 				CA4585262705D76F005A3697 /* Apple */,
@@ -393,6 +404,7 @@
 				CA3E53A92704525100ACC2BE /* ic_fast_backward.png in Resources */,
 				CA3E53B02704525100ACC2BE /* ic_subtitles.png in Resources */,
 				CA3E53AC2704525100ACC2BE /* ic_airplay.png in Resources */,
+				CA19D561273D516E00023CBF /* MinionsHoliday.srt in Resources */,
 				CA3E53A02704525100ACC2BE /* ic_report_video.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
